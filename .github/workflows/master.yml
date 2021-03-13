@@ -112,6 +112,11 @@ jobs:
             pandas-version: 1.2.3
             pyarrow-version: 3.0.0
             default-index-type: 'distributed-sequence'
+          - python-version: 3.9
+            spark-version: 3.0.2
+            pandas-version: 1.2.3
+            pyarrow-version: 3.0.0
+            default-index-type: 'distributed-sequence'            
     env:
       PYTHON_VERSION: ${{ matrix.python-version }}
       SPARK_VERSION: ${{ matrix.spark-version }}
